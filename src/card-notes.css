@@ -1,0 +1,15 @@
+.card-note-trigger{margin-left:auto;flex-shrink:0;min-width:36px;min-height:36px}
+.card-note-menu{position:fixed;z-index:90;width:224px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);box-shadow:0 10px 32px #0003}
+.card-note-menu>small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:6px 10px}
+.card-note-menu>button{display:flex;align-items:center;gap:10px;width:100%;min-height:44px;border:0;border-radius:5px;background:transparent;color:var(--ink);padding:10px;text-align:left}
+.card-note-menu>button:hover,.card-note-menu>button:focus-visible{background:var(--soft)}
+dialog.card-note-drawer{position:fixed;inset:0 0 0 auto;margin:0;width:min(560px,100vw);height:100dvh;max-height:100dvh;max-width:100vw;border:0;border-left:1px solid var(--line);border-radius:0;padding:24px;background:var(--paper);color:var(--ink);overflow:auto;box-shadow:-10px 0 40px #0002;animation:card-note-enter 200ms ease-out}
+.card-note-drawer::backdrop{background:#0b132b44}
+.card-note-drawer>header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:16px;gap:12px}
+.card-note-drawer h2{margin:6px 0 0;font-size:24px}.card-note-context{display:grid;gap:6px;padding:16px 0;overflow-wrap:anywhere}.card-note-context>span{font-size:12px;color:var(--accent)}.card-note-context>strong{font-weight:500}.card-note-context small{line-height:1.7}
+.card-note-drawer .notes-editor-only .note-editor{display:block!important}.card-note-drawer .note-editor-top{flex-wrap:wrap}.card-note-drawer .note-title{max-width:100%}.card-note-drawer .note-body textarea{min-height:38vh}.card-note-drawer .note-footer{flex-wrap:wrap}.card-note-drawer .alert .link{display:block;margin-top:10px}
+@keyframes card-note-enter{from{transform:translateX(24px);opacity:0}to{transform:translateX(0);opacity:1}}
+@media(prefers-reduced-motion:reduce){dialog.card-note-drawer{animation:none}}
+[data-motion=off] dialog.card-note-drawer{animation:none}
+@media(max-width:600px){dialog.card-note-drawer{padding:18px}.card-note-drawer .note-body.mode-split{display:flex;flex-direction:column}}
+.card-note-surface{position:relative}.card-note-surface>.card-note-trigger{position:absolute;top:14px;right:14px}.source-card.card-note-surface .source-card-top{padding-right:42px}.inspector.card-note-surface>h2{padding-right:36px}

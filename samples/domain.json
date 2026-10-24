@@ -1,0 +1,1 @@
+{"id":"automation-testing","version":1,"title":"自动化测试","knowledge_types":["concept","procedure","pattern"],"exercise_types":["recall","application","pytest","playwright"],"evaluation":["ai_estimate","execution_and_rubric"],"skills":["decompose","explain","review"],"tools":["retrieval","isolated_runner"]}

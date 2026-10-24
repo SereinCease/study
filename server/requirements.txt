@@ -1,0 +1,2 @@
+# Install the tested, pinned dependency set from the project root.
+-r ../requirements.lock

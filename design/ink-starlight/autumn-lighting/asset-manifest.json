@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-22",
+  "stage": "fixed-camera 2.5D relighting prototype",
+  "assets": [
+    {
+      "file": "assets/autumn-master.png",
+      "role": "art_reference",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 2601410,
+      "sha256": "a0ff7c271781951d7223c917586fc6426a8efe40602c2d76f2d9d5ade282b1dd",
+      "metadata": "assets/autumn-master.png.metadata.json"
+    },
+    {
+      "file": "assets/autumn-room.png",
+      "role": "room_background",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 2429354,
+      "sha256": "906bf396e73802809e5f0ce05d88fb882e84c9276e01305c55b8a631180c0295",
+      "metadata": "assets/autumn-room.png.metadata.json"
+    },
+    {
+      "file": "assets/scholar-cutout.png",
+      "role": "character_color_alpha",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "bytes": 1387026,
+      "sha256": "5bb51dbe3afc4649ead0e33a4369ec372dc274793e1693c3b7a26cb7c71b4a4f",
+      "metadata": "assets/scholar-cutout.png.metadata.json",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "transparent_pixels": 1225108,
+      "silhouette_bbox_above_240": [
+        522,
+        109,
+        1320,
+        958
+      ]
+    },
+    {
+      "file": "assets/scholar-normal.png",
+      "role": "approximate_normal",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "bytes": 1513332,
+      "sha256": "3f4b1cc9e0bbaafacd16832312e397ccc23c7aa983e96425797c2906ff7770fe",
+      "metadata": "assets/scholar-normal.png.metadata.json"
+    }
+  ],
+  "character_registration": {
+    "image_origin": "top-left",
+    "scale": 0.63,
+    "offset_pixels": [
+      449,
+      106
+    ]
+  },
+  "normal_accuracy": "AI-painted approximation; not geometry-baked",
+  "excluded_draft": "assets/scholar-color.png",
+  "total_input_bytes": 7931122
+}
